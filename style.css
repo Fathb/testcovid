@@ -68,5 +68,6 @@ body {
 @media (max-width: 800px) {
  .box-form {
   margin-left: 100px;
+  width: 350px;
  }
 }
