@@ -1,0 +1,72 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ background: url('dokter.jpeg');
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+.container {
+ min-height: 100vh;
+ min-width: 100vw;
+ background: rgba(0,0,0,0.55);
+ display: flex;
+ align-items: center;
+}
+
+.box-form {
+ max-height: 90vh;
+ min-width: 450px;
+ height: 100%;
+ width: 35vw;
+ background: #fff;
+ border-radius: 20px;
+ padding: 20px;
+ margin-left: 600px;
+ text-align: center;
+ overflow: scroll;
+}
+
+.box-form h1 {
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 20px;
+ font-weight: 600;
+ margin-bottom: 20px;
+}
+
+.box-form .form-group {
+ width: 100%;
+ display: block;
+ margin-bottom: 15px;
+}
+
+.form-group span {
+ display: block;
+ margin-bottom: 5px;
+ text-align: left;
+}
+
+.form-group select {
+ width: 100%;
+ background: transparent;
+ padding: 5px;
+}
+
+.box-form>button {
+ width: 150px;
+ border: none;
+ padding: 10px 20px;
+ background: #000;
+ color: #fff;
+}
+
+@media (max-width: 800px) {
+ .box-form {
+  margin-left: 100px;
+ }
+}
