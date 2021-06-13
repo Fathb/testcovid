@@ -25,7 +25,6 @@ function cek(e) {
  } else {
   alert("maka.....");
  }
- console.log(a);
 }
 
 let cekButton = document.querySelector("#cekButton");
